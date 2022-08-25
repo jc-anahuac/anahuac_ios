@@ -14,6 +14,7 @@
 		F665313028ADC12400E94B61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F665312E28ADC12400E94B61 /* Main.storyboard */; };
 		F665313228ADC12700E94B61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F665313128ADC12700E94B61 /* Assets.xcassets */; };
 		F665313528ADC12700E94B61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F665313328ADC12700E94B61 /* LaunchScreen.storyboard */; };
+		F690E58B28B6FCB300D62816 /* LoginNetflixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F690E58A28B6FCB200D62816 /* LoginNetflixViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F665313128ADC12700E94B61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F665313428ADC12700E94B61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F665313628ADC12700E94B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F690E58A28B6FCB200D62816 /* LoginNetflixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNetflixViewController.swift; sourceTree = "<group>"; };
+		F690E58C28B70F0E00D62816 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +65,12 @@
 				F665312A28ADC12400E94B61 /* SceneDelegate.swift */,
 				F665312C28ADC12400E94B61 /* ViewController.swift */,
 				F616254A28B46FC80080CDFC /* HomeViewController.swift */,
+				F690E58A28B6FCB200D62816 /* LoginNetflixViewController.swift */,
 				F665312E28ADC12400E94B61 /* Main.storyboard */,
 				F665313128ADC12700E94B61 /* Assets.xcassets */,
 				F665313328ADC12700E94B61 /* LaunchScreen.storyboard */,
 				F665313628ADC12700E94B61 /* Info.plist */,
+				F690E58C28B70F0E00D62816 /* MyPlayground.playground */,
 			);
 			path = anahuac_ios;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 				F665312928ADC12400E94B61 /* AppDelegate.swift in Sources */,
 				F665312B28ADC12400E94B61 /* SceneDelegate.swift in Sources */,
 				F616254B28B46FC80080CDFC /* HomeViewController.swift in Sources */,
+				F690E58B28B6FCB300D62816 /* LoginNetflixViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
