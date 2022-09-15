@@ -11,6 +11,8 @@
 		F61235A828C6DFD900D153B7 /* PokemonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61235A628C6DFD900D153B7 /* PokemonTableViewCell.swift */; };
 		F61235A928C6DFD900D153B7 /* PokemonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F61235A728C6DFD900D153B7 /* PokemonTableViewCell.xib */; };
 		F616254B28B46FC80080CDFC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F616254A28B46FC80080CDFC /* HomeViewController.swift */; };
+		F642A31828C974A400DEA04A /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F642A31628C974A400DEA04A /* ImageCollectionViewCell.swift */; };
+		F642A31928C974A400DEA04A /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F642A31728C974A400DEA04A /* ImageCollectionViewCell.xib */; };
 		F65AAC7D28C042800061F66F /* PokemonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65AAC7C28C042800061F66F /* PokemonDetailViewController.swift */; };
 		F665312928ADC12400E94B61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665312828ADC12400E94B61 /* AppDelegate.swift */; };
 		F665312B28ADC12400E94B61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665312A28ADC12400E94B61 /* SceneDelegate.swift */; };
@@ -20,6 +22,7 @@
 		F665313528ADC12700E94B61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F665313328ADC12700E94B61 /* LaunchScreen.storyboard */; };
 		F666FC2D28BDA608004077D4 /* PokemonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F666FC2C28BDA608004077D4 /* PokemonListViewController.swift */; };
 		F690E58B28B6FCB300D62816 /* LoginNetflixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F690E58A28B6FCB200D62816 /* LoginNetflixViewController.swift */; };
+		F69F749D28D018C2006AE5B4 /* LoginPreExamenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69F749C28D018C2006AE5B4 /* LoginPreExamenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,8 @@
 		F61235A628C6DFD900D153B7 /* PokemonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTableViewCell.swift; sourceTree = "<group>"; };
 		F61235A728C6DFD900D153B7 /* PokemonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonTableViewCell.xib; sourceTree = "<group>"; };
 		F616254A28B46FC80080CDFC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F642A31628C974A400DEA04A /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		F642A31728C974A400DEA04A /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
 		F65AAC7C28C042800061F66F /* PokemonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailViewController.swift; sourceTree = "<group>"; };
 		F665312528ADC12400E94B61 /* anahuac_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anahuac_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F665312828ADC12400E94B61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +44,7 @@
 		F666FC2C28BDA608004077D4 /* PokemonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListViewController.swift; sourceTree = "<group>"; };
 		F690E58A28B6FCB200D62816 /* LoginNetflixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNetflixViewController.swift; sourceTree = "<group>"; };
 		F690E58C28B70F0E00D62816 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F69F749C28D018C2006AE5B4 /* LoginPreExamenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPreExamenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,8 @@
 				F665312A28ADC12400E94B61 /* SceneDelegate.swift */,
 				F665312C28ADC12400E94B61 /* ViewController.swift */,
 				F616254A28B46FC80080CDFC /* HomeViewController.swift */,
+				F642A31628C974A400DEA04A /* ImageCollectionViewCell.swift */,
+				F642A31728C974A400DEA04A /* ImageCollectionViewCell.xib */,
 				F690E58A28B6FCB200D62816 /* LoginNetflixViewController.swift */,
 				F666FC2C28BDA608004077D4 /* PokemonListViewController.swift */,
 				F65AAC7C28C042800061F66F /* PokemonDetailViewController.swift */,
@@ -94,6 +102,7 @@
 				F665313328ADC12700E94B61 /* LaunchScreen.storyboard */,
 				F665313628ADC12700E94B61 /* Info.plist */,
 				F690E58C28B70F0E00D62816 /* MyPlayground.playground */,
+				F69F749C28D018C2006AE5B4 /* LoginPreExamenViewController.swift */,
 			);
 			path = anahuac_ios;
 			sourceTree = "<group>";
@@ -160,6 +169,7 @@
 				F61235A928C6DFD900D153B7 /* PokemonTableViewCell.xib in Resources */,
 				F665313228ADC12700E94B61 /* Assets.xcassets in Resources */,
 				F665313028ADC12400E94B61 /* Main.storyboard in Resources */,
+				F642A31928C974A400DEA04A /* ImageCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +186,10 @@
 				F665312928ADC12400E94B61 /* AppDelegate.swift in Sources */,
 				F65AAC7D28C042800061F66F /* PokemonDetailViewController.swift in Sources */,
 				F665312B28ADC12400E94B61 /* SceneDelegate.swift in Sources */,
+				F642A31828C974A400DEA04A /* ImageCollectionViewCell.swift in Sources */,
 				F616254B28B46FC80080CDFC /* HomeViewController.swift in Sources */,
 				F666FC2D28BDA608004077D4 /* PokemonListViewController.swift in Sources */,
+				F69F749D28D018C2006AE5B4 /* LoginPreExamenViewController.swift in Sources */,
 				F690E58B28B6FCB300D62816 /* LoginNetflixViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
